@@ -8,14 +8,11 @@ public class Main {
         System.out.print("Enter the first number (a): ");
         int a = scanner.nextInt();  
 
-        System.out.print("Enter the second number (b): ");
-        int b = scanner.nextInt();  
-
-        int sum = a + b;
+        
+        int sum = a + a;
 
         
-        System.out.println("The sum of " + a + " and " + b + " is: " + sum);
-
+        System.out.println(sum);
         
         scanner.close();
     }
